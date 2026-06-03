@@ -1,21 +1,24 @@
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { Target, Eye, ArrowRight } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 export default function AboutPage() {
+  const { t } = useTranslation();
   const missionRef = useScrollAnimation<HTMLDivElement>({ threshold: 0.2 });
   const visionRef = useScrollAnimation<HTMLDivElement>({ threshold: 0.2 });
-  const teamRef = useScrollAnimation<HTMLDivElement>({ threshold: 0.2 });
 
   return (
-    <main style={{ position: 'relative', zIndex: 1 }}>
-      {/* Hero */}
+    <main style={{ position: 'relative', zIndex: 1, paddingTop: '64px' }}>
+      {/* Hero - Dark Blue */}
       <section
         className="flex flex-col items-center justify-center text-center px-6"
         style={{
-          backgroundColor: 'var(--deep-blue)',
-          minHeight: '60vh',
+          background: 'linear-gradient(135deg, var(--deep-blue) 0%, #0d3566 50%, #0f3d75 100%)',
+          minHeight: '55vh',
         }}
       >
+        <div className="overline mb-4">{t('navigation.about')}</div>
         <h1
           className="font-light leading-none tracking-[-0.02em]"
           style={{
@@ -23,92 +26,105 @@ export default function AboutPage() {
             color: 'var(--white)',
           }}
         >
-          Sobre AW International
+          {t('about.title')}
         </h1>
         <p
           className="mt-6 text-lg font-light leading-relaxed max-w-[600px]"
           style={{ color: 'var(--muted-text)' }}
         >
-          Pioneros en tecnologia de generacion de agua atmosferica
+          {t('about.subtitle')}
         </p>
       </section>
 
-      {/* Content */}
+      {/* Description - Light */}
       <section
         style={{
-          backgroundColor: 'var(--white)',
+          background: 'var(--section-light)',
           padding: 'var(--section-pad-y) var(--section-pad-x)',
         }}
       >
         <div className="max-w-[800px] mx-auto">
-          <div ref={missionRef}>
-            <h2
-              className="font-normal leading-tight tracking-[-0.01em]"
-              style={{
-                fontSize: 'clamp(1.8rem, 3vw, 2.5rem)',
-                color: 'var(--deep-blue)',
-              }}
-            >
-              Nuestra Mision
-            </h2>
+          <div className="text-center mb-16">
             <p
-              className="mt-4 text-base font-light leading-relaxed"
-              style={{ color: 'var(--mid-blue)', opacity: 0.8 }}
+              className="text-xl font-light leading-relaxed"
+              style={{ color: 'var(--deep-blue)' }}
             >
-              AW International desarrollo tecnologia pionera para extraer agua de la humedad del aire.
-              Aprovechando el oceano renovable de vapor de agua en la atmosfera, nuestra tecnologia
-              patentada transforma la humedad en una fuente abundante de agua limpia cerca del punto de uso.
-              Nuestros sistemas escalables y modulares son la solucion responsable a la crisis mundial del agua.
+              {t('about.description')}
             </p>
           </div>
 
-          <div ref={visionRef} className="mt-16">
-            <h2
-              className="font-normal leading-tight tracking-[-0.01em]"
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Mission */}
+            <div
+              ref={missionRef}
+              className="rounded-2xl p-8 transition-all duration-500 hover:-translate-y-1"
               style={{
-                fontSize: 'clamp(1.8rem, 3vw, 2.5rem)',
-                color: 'var(--deep-blue)',
+                background: 'var(--white)',
+                border: '1px solid rgba(19,73,128,0.08)',
+                boxShadow: '0 4px 20px rgba(19,73,128,0.06)',
               }}
             >
-              Nuestra Vision
-            </h2>
-            <p
-              className="mt-4 text-base font-light leading-relaxed"
-              style={{ color: 'var(--mid-blue)', opacity: 0.8 }}
-            >
-              AW International continuara liderando la investigacion y desarrollo en tecnologia Air-to-Water.
-              Nuestra segunda generacion de maquinas para hogar, oficina y comercio establecera el estandar
-              de la industria, convirtiendonos en el lider de mercado mas reconocido y confiable del mundo.
-            </p>
-          </div>
+              <div 
+                className="w-14 h-14 rounded-xl flex items-center justify-center mb-6"
+                style={{ background: 'rgba(19,73,128,0.08)' }}
+              >
+                <Target size={28} style={{ color: 'var(--deep-blue)' }} />
+              </div>
+              <h2
+                style={{
+                  fontSize: 'clamp(1.5rem, 2.5vw, 2rem)',
+                  color: 'var(--deep-blue)',
+                  fontFamily: 'Outfit',
+                }}
+              >
+                {t('about.mission.title')}
+              </h2>
+              <p
+                className="mt-4 text-base leading-relaxed"
+                style={{ color: 'var(--muted-text-dark)' }}
+              >
+                {t('about.mission.text')}
+              </p>
+            </div>
 
-          <div
-            ref={teamRef}
-            className="mt-16 rounded-lg p-10 text-center"
-            style={{
-              backgroundColor: 'var(--cream)',
-            }}
-          >
-            <h2
-              className="font-normal leading-tight tracking-[-0.01em]"
+            {/* Vision */}
+            <div
+              ref={visionRef}
+              className="rounded-2xl p-8 transition-all duration-500 hover:-translate-y-1"
               style={{
-                fontSize: 'clamp(1.8rem, 3vw, 2.5rem)',
-                color: 'var(--deep-blue)',
+                background: 'var(--white)',
+                border: '1px solid rgba(19,73,128,0.08)',
+                boxShadow: '0 4px 20px rgba(19,73,128,0.06)',
               }}
             >
-              Nuestro Equipo
-            </h2>
-            <p
-              className="mt-4 text-base font-light"
-              style={{ color: 'var(--muted-text)' }}
-            >
-              Pronto conoceras al equipo detras de esta revolucionaria tecnologia.
-            </p>
+              <div 
+                className="w-14 h-14 rounded-xl flex items-center justify-center mb-6"
+                style={{ background: 'rgba(19,73,128,0.08)' }}
+              >
+                <Eye size={28} style={{ color: 'var(--deep-blue)' }} />
+              </div>
+              <h2
+                style={{
+                  fontSize: 'clamp(1.5rem, 2.5vw, 2rem)',
+                  color: 'var(--deep-blue)',
+                  fontFamily: 'Outfit',
+                }}
+              >
+                {t('about.vision.title')}
+              </h2>
+              <p
+                className="mt-4 text-base leading-relaxed"
+                style={{ color: 'var(--muted-text-dark)' }}
+              >
+                {t('about.vision.text')}
+              </p>
+            </div>
           </div>
 
-          <div className="mt-12 text-center">
-            <Link to="/contact" className="btn-primary">
-              Contactar al Equipo
+          <div className="mt-16 text-center">
+            <Link to="/contact" className="btn-primary inline-flex items-center gap-2">
+              {t('common.contactUs')}
+              <ArrowRight size={18} />
             </Link>
           </div>
         </div>

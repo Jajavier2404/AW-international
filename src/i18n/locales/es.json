@@ -1,0 +1,270 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "systems": "Sistemas",
+    "markets": "Mercados",
+    "about": "Nosotros",
+    "faqs": "FAQs",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "overline": "TECNOLOGIA DE GENERACION DE AGUA ATMOSFERICA",
+    "headline": "Hacemos agua pura del aire",
+    "subheadline": "Sistemas patentados que transforman la humedad atmosferica en agua potable limpia y segura, donde y cuando la necesites.",
+    "ctaPrimary": "Ver Nuestros Sistemas",
+    "ctaSecondary": "Como Funciona"
+  },
+  "about": {
+    "title": "Sobre AW International",
+    "subtitle": "Haciendo agua pura de la nada",
+    "description": "AW International fue pionero en la tecnologia de generacion de agua atmosferica para extraer agua de la humedad del aire. Aprovechando el oceano renovable de vapor de agua en el aire que respiramos, nuestra tecnologia patentada transforma la humedad en una fuente abundante de agua limpia cerca del punto de uso.",
+    "mission": {
+      "title": "Nuestra Mision",
+      "text": "Nuestra mision es proporcionar agua pura, libre de bacterias, limpia y potable en todo el mundo. Proporcionando agua para beber, horticultura y agricultura y satisfaciendo la sed de las masas. La Generacion de Agua del Aire proporcionara alimento para la humanidad durante la amenazante crisis del agua del siglo XXI. El agua potable limpia esta entre los bienes mas valiosos del mundo y se esta volviendo cada vez mas limitada; destinada a ser un bien mas valioso que el petroleo. AGUA PARA EL MUNDO."
+    },
+    "vision": {
+      "title": "Nuestra Vision",
+      "text": "AWG International Inc. continuara liderando la investigacion y desarrollo en el campo de la tecnologia de Agua del Aire. Las maquinas de agua de 2da Generacion de la empresa para hogar/oficina y las maquinas comerciales AquaMaX estableceran el estandar de la industria, haciendo de AWG International Inc. el lider de mercado mas reconocido y confiable del mundo."
+    },
+    "cta": "Conocer Mas Sobre Nosotros"
+  },
+  "systems": {
+    "title": "Nuestros Sistemas",
+    "subtitle": "Disenados para ser la solucion",
+    "description": "Los sistemas de AW International estan disenados con principios fundamentales: adaptables, escalables, rentables y ambientalmente responsables.",
+    "principles": {
+      "adaptable": "Adaptables y escalables",
+      "costEffective": "Rentables",
+      "environmental": "Ambientalmente responsables",
+      "smart": "Tecnologicamente inteligentes"
+    },
+    "products": {
+      "aw2500": {
+        "name": "AW 2500",
+        "description": "El AW 2500 es una unidad de escritorio para hogar y oficina que puede producir algunas de las aguas mas limpias y mejor sabor del mundo. Con una huella de carbono baja, sin botellas de plastico que desechar ni combustible para entregas semanales, tecnologia patentada que garantiza obtener el agua mas segura y limpia disponible.",
+        "capacity": "Hasta 5 galones/19 litros por dia",
+        "applications": "Hogares, Oficinas, Tiendas Pequenas"
+      },
+      "aw800": {
+        "name": "AW 800",
+        "description": "El AW 800 es un sistema comercial e industrial que puede producir hasta 800 galones de agua potable limpia por dia, del aire. Ideal para resorts, hoteles, edificios de apartamentos, hospitales, respuesta a desastres, agua potable comunitaria e hidroponia.",
+        "capacity": "Hasta 800 galones por dia",
+        "applications": "Resorts, Hospitales, Comunidades, Hidroponia"
+      },
+      "awi250g": {
+        "name": "AWI 250 G",
+        "description": "El AWI 250 G es una gran alternativa para necesidades semi-industriales. Puede producir hasta 1,000 litros por dia.",
+        "capacity": "Hasta 1,000 litros por dia",
+        "applications": "Fabricas, Hoteles, Edificios"
+      },
+      "aw5k": {
+        "name": "AW 5K",
+        "description": "El AW 5K es un sistema industrial que puede producir 5,000 galones por dia de agua potable limpia del aire. Ideal para aplicaciones industriales a gran escala.",
+        "capacity": "Hasta 5,000 galones por dia",
+        "applications": "Industria, Respuesta a Desastres, Agricultura"
+      },
+      "aw9000": {
+        "name": "AW 9000",
+        "description": "Sistema de generacion de agua alimentado por energia solar. Ideal para ubicaciones remotas sin acceso a red electrica.",
+        "capacity": "9,000 galones por dia",
+        "applications": "Ubicaciones remotas, Comunidades rurales"
+      },
+      "aw12000": {
+        "name": "AW 12000",
+        "description": "Sistema solar de alta capacidad para comunidades y aplicaciones industriales.",
+        "capacity": "12,000 galones por dia",
+        "applications": "Comunidades, Industria, Resorts"
+      },
+      "aw18000s": {
+        "name": "AW 18000S",
+        "description": "Sistema solar de gran escala para produccion masiva de agua potable.",
+        "capacity": "18,000 galones por dia",
+        "applications": "Industrial, Comunidades grandes"
+      },
+      "aw24000s": {
+        "name": "AW 24000S",
+        "description": "El sistema solar mas grande de nuestra linea para maxima produccion de agua potable.",
+        "capacity": "24,000 galones por dia",
+        "applications": "Maxima escala industrial"
+      },
+      "adpv40k": {
+        "name": "ADPV40K",
+        "description": "Sistema fotovoltaico de 40KW con seguimiento de 2 ejes para maxima eficiencia energetica.",
+        "capacity": "40KW Solar",
+        "applications": "Sistemas AW grandes, Plantas solares"
+      }
+    },
+    "solar": {
+      "title": "Sistemas Solares",
+      "description": "Soluciones con paneles solares de 40KW y baterias de 13,200Ah. Ideales para ubicaciones remotas sin acceso a la red electrica.",
+      "products": ["ADPV40K", "AW 9000", "AW 12000", "AW 18000S", "AW 24000S"]
+    },
+    "advantages": {
+      "title": "Ventajas",
+      "subtitle": "Los beneficios de nuestros sistemas",
+      "accessible": "Accesibles - Nuestras unidades producen agua potable limpia y fresca en cualquier lugar",
+      "filtration": "Filtracion confiable - Libre de impurezas, contaminacion del aire y oxidos metalicos",
+      "secure": "Seguras - Sin quimicos ni contaminantes",
+      "efficient": "Eficientes - Economicas de operar; simples de mantener",
+      "environmental": "Ambientalmente limpias - Deshumidifican previniendo podredumbre, moho y mildiu",
+      "biohazard": "Libres de riesgo biologico - Sin contaminantes ni farmaceuticos encontrados en aguas subterraneas"
+    },
+    "cta": "Ver Todos los Sistemas",
+    "viewDetails": "Ver Detalles",
+    "requestQuote": "Solicitar Cotizacion",
+    "datasheet": "Ficha Tecnica"
+  },
+  "markets": {
+    "title": "Nuestros Mercados",
+    "subtitle": "Abordando la Crisis Mundial del Agua",
+    "description": "Del total del suministro mundial de agua, aproximadamente el 97.5% es agua salada. La mayor parte del 2.5% restante esta atrapado en hielo y nieve. Menos del 1% del suministro de agua dulce de la tierra esta disponible para uso de la poblacion mundial.",
+    "crisis": {
+      "title": "Resolviendo la Crisis Mundial del Agua",
+      "text1": "Para 2025, 1,800 millones de personas viviran en paises o regiones con escasez absoluta de agua, y dos tercios de la poblacion mundial podria vivir bajo condiciones de estres hidrico.",
+      "text2": "Para 2030, el 47% de la poblacion mundial vivira en areas de alto estres hidrico. La poblacion seguira creciendo. Los problemas del agua se volveran aun mas alarmantes.",
+      "oilGas": "Ademas del agua potable, la demanda de agua en aplicaciones industriales continuara aumentando. Por ejemplo, las actividades de fracturacion en Texas consumieron mas de 45 mil millones de galones de agua dulce desde enero de 2011 hasta mayo de 2013."
+    },
+    "atmospheric": {
+      "title": "Generacion de Agua Atmosferica",
+      "subtitle": "Una solucion inteligente y responsable",
+      "responsible": "Tecnologia responsable - La atmosfera contiene un suministro casi ilimitado de agua dulce",
+      "accessible": "Haciendo el agua accesible - Disenados para producir agua limpia de forma rentable",
+      "questions": "Respondiendo preguntas - Por que esperar a que el agua se condense y caiga como nieve?"
+    },
+    "marketsList": {
+      "residential": {
+        "title": "Residencial",
+        "description": "Hogares y oficinas que buscan autonomia hidrica total.",
+        "ideal": "AW 2500"
+      },
+      "industrial": {
+        "title": "Industrial",
+        "description": "Produccion continua de agua para procesos industriales y manufactura.",
+        "ideal": "AW 5K"
+      },
+      "communities": {
+        "title": "Comunidades",
+        "description": "Agua potable accesible para comunidades enteras y respuesta a desastres.",
+        "ideal": "AW 800"
+      },
+      "oilGas": {
+        "title": "Oil & Gas",
+        "description": "Soluciones de agua para exploracion en sitios remotos sin infraestructura.",
+        "ideal": "AWI 250 G"
+      },
+      "agriculture": {
+        "title": "Agricultura",
+        "description": "Riego e hidroponia con agua pura generada in situ.",
+        "ideal": "AW 800"
+      }
+    },
+    "cta": "Conocer Mas Sobre Mercados"
+  },
+  "howItWorks": {
+    "title": "Nuestra Tecnologia",
+    "subtitle": "Tres pasos. Agua infinita.",
+    "steps": {
+      "1": {
+        "title": "Absorcion",
+        "description": "El sistema extrae aire humedo del ambiente. Funciona con humedad minima del 50%, sin necesidad de lluvia."
+      },
+      "2": {
+        "title": "Condensacion",
+        "description": "El aire se enfria hasta el punto de rocio. La humedad se condensa sobre bobinas de acero inoxidable de ultima generacion."
+      },
+      "3": {
+        "title": "Purificacion",
+        "description": "El agua pasa por camaras de filtracion avanzada, produciendo agua potable pura, limpia y lista para consumir."
+      }
+    }
+  },
+  "faqs": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Obtén las Respuestas",
+    "questions": {
+      "1": {
+        "question": "Que es la Generacion de Agua Atmosferica?",
+        "answer": "La generacion de agua atmosferica es un proceso basado en tecnologia utilizado para condensar agua del aire, luego capturar y filtrar esa humedad en agua potable."
+      },
+      "2": {
+        "question": "Como funciona?",
+        "answer": "Los sistemas de AW International recolectan agua de la humedad en la atmosfera. Este aire se enfria hasta el 'punto de rocio' y la humedad se condensa sobre bobinas de acero inoxidable o especialmente recubiertas, luego se canaliza a traves de camaras de filtrado avanzadas para proporcionar una fuente confiable de agua potable limpia."
+      },
+      "3": {
+        "question": "Bajo que condiciones ambientales puede producir agua?",
+        "answer": "La tecnologia de AW International producira agua limpia de forma efectiva y economica desde el aire con humedad tan baja como el 50%. La generacion optima de agua depende de la temperatura promedio y la humedad relativa. Las condiciones de mayor humedad y temperatura mejoran la rentabilidad."
+      },
+      "4": {
+        "question": "Que tan pura es el agua producida?",
+        "answer": "El agua producida esta libre de impurezas, como la contaminacion del aire y la contaminacion por oxidos metalicos. El proceso de filtracion avanzada funciona todo el dia y toda la noche, sin parar, manteniendo un nivel optimo de purificacion. El agua filtrada tiene bajo TDS (Solidos Totales Disueltos)."
+      },
+      "5": {
+        "question": "Cuanta agua se puede producir?",
+        "answer": "La produccion de agua puede variar desde hasta cinco galones/19 litros por dia para modelos domesticos, hasta mas de 400 galones/1,500 litros por dia para modelos comerciales, e incluso mas mediante la agregacion modular de estas unidades. Con el AW 20K, se pueden producir mas de 20,000 galones/75,000 litros por dia con una sola unidad."
+      },
+      "6": {
+        "question": "Que se necesita para operar y mantener los generadores?",
+        "answer": "Los sistemas de AW International estan disenados para operar continuamente y solo requieren un mantenimiento periodico modesto que consiste en cambios de filtros y limpieza general. Los filtros de aire deben reemplazarse de cuatro a seis veces al ano. Los filtros de agua deben reemplazarse de dos a cuatro veces por ano."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contactenos",
+    "subtitle": "Nuestro equipo de ventas siempre esta listo para conversar.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo Electronico",
+      "message": "Mensaje",
+      "submit": "Enviar",
+      "success": "Gracias por su mensaje. Nos pondremos en contacto pronto."
+    },
+    "info": {
+      "phone": "1-939-251-7443",
+      "email": "info@awinternational.ca",
+      "address": "Global Plaza Bldg, John Albert St 322, suite 201 B1, San Juan, Puerto Rico 00920"
+    },
+    "cta": "Llamar Hoy"
+  },
+  "footer": {
+    "copyright": "© 2026 AW International Ltd",
+    "rights": "Todos los derechos reservados."
+  },
+  "common": {
+    "learnMore": "Conocer Mas",
+    "readMore": "Leer Mas",
+    "viewAll": "Ver Todo",
+    "contactUs": "Contactenos",
+    "callToday": "Llamar Hoy",
+    "scrollDown": "Desplazar",
+    "language": "Idioma",
+    "spanish": "Espanol",
+    "english": "Ingles"
+  },
+  "home": {
+    "aboutPreview": {
+      "title": "Sobre AW International",
+      "description": "AW International fue pionero en la tecnologia de generacion de agua atmosferica. Nuestros sistemas patentados transforman la humedad en una fuente abundante de agua limpia.",
+      "cta": "Conocer Mas Sobre Nosotros"
+    },
+    "systemsPreview": {
+      "title": "Nuestros Sistemas",
+      "description": "Desde unidades de escritorio hasta sistemas industriales de alta capacidad, tenemos la solucion para cada aplicacion.",
+      "cta": "Ver Todos los Sistemas"
+    },
+    "marketsPreview": {
+      "title": "Nuestros Mercados",
+      "description": "Abordando la crisis mundial del agua con soluciones para aplicaciones residenciales, industriales y comunitarias.",
+      "cta": "Explorar Mercados"
+    },
+    "technologyPreview": {
+      "title": "Nuestra Tecnologia",
+      "description": "Tres simples pasos para transformar la humedad atmosferica en agua potable pura.",
+      "cta": "Ver Como Funciona"
+    },
+    "faqPreview": {
+      "title": "Preguntas Frecuentes",
+      "description": "Obtenga respuestas sobre nuestros procesos, sistemas y tecnologia.",
+      "cta": "Ver Todas las FAQs"
+    }
+  }
+}

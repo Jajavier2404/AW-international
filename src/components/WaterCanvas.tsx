@@ -52,16 +52,16 @@ export default function WaterCanvas() {
 
       ctx.clearRect(0, 0, width, height);
 
-      // Create deep ocean gradient
+      // Create deep blue gradient matching #134980
       const gradient = ctx.createLinearGradient(0, 0, 0, height);
-      gradient.addColorStop(0, '#0a3d5c');
-      gradient.addColorStop(0.3, '#0d4f6e');
-      gradient.addColorStop(0.6, '#0a3d5c');
-      gradient.addColorStop(1, '#081e30');
+      gradient.addColorStop(0, '#134980');
+      gradient.addColorStop(0.3, '#0f3d75');
+      gradient.addColorStop(0.6, '#134980');
+      gradient.addColorStop(1, '#0a2d5a');
       ctx.fillStyle = gradient;
       ctx.fillRect(0, 0, width, height);
 
-      // Draw animated wave layers
+      // Draw animated wave layers with subtle blue tones
       const drawWaveLayer = (
         offsetY: number,
         amplitude: number,
@@ -90,32 +90,32 @@ export default function WaterCanvas() {
         ctx.globalAlpha = 1;
       };
 
-      // Multiple wave layers for depth
-      drawWaveLayer(height * 0.15, 20, 0.003, 1.2, 0.12, '#1a6b8a');
-      drawWaveLayer(height * 0.25, 25, 0.004, 1.0, 0.15, '#1e7a9a');
-      drawWaveLayer(height * 0.38, 30, 0.0025, 0.8, 0.18, '#2188aa');
-      drawWaveLayer(height * 0.52, 35, 0.0035, 1.1, 0.22, '#1a7a9a');
-      drawWaveLayer(height * 0.68, 28, 0.002, 0.9, 0.25, '#0f5a7a');
-      drawWaveLayer(height * 0.85, 22, 0.004, 1.3, 0.3, '#0a4a6a');
+      // Multiple wave layers for depth - using blue tones only
+      drawWaveLayer(height * 0.15, 20, 0.003, 1.2, 0.08, '#1a5c99');
+      drawWaveLayer(height * 0.25, 25, 0.004, 1.0, 0.1, '#1e6ba8');
+      drawWaveLayer(height * 0.38, 30, 0.0025, 0.8, 0.12, '#2078b8');
+      drawWaveLayer(height * 0.52, 35, 0.0035, 1.1, 0.15, '#1a6ba8');
+      drawWaveLayer(height * 0.68, 28, 0.002, 0.9, 0.18, '#0f4a7a');
+      drawWaveLayer(height * 0.85, 22, 0.004, 1.3, 0.2, '#0a3d6a');
 
-      // Mouse ripple ring effect
+      // Mouse ripple ring effect - white instead of aqua
       for (let r = 1; r <= 4; r++) {
         const radius = ((time * 60 + r * 80) % 400);
-        const alpha = Math.max(0, 0.15 * (1 - radius / 400));
+        const alpha = Math.max(0, 0.1 * (1 - radius / 400));
         ctx.beginPath();
         ctx.arc(mouseX, mouseY, radius, 0, Math.PI * 2);
-        ctx.strokeStyle = `rgba(78, 205, 196, ${alpha})`;
+        ctx.strokeStyle = `rgba(255, 255, 255, ${alpha})`;
         ctx.lineWidth = 1.5;
         ctx.stroke();
       }
 
-      // Highlight shimmer lines
-      ctx.globalAlpha = 0.06;
+      // Highlight shimmer lines - white instead of aqua
+      ctx.globalAlpha = 0.04;
       for (let i = 0; i < 5; i++) {
         const y = height * (0.2 + i * 0.15) + Math.sin(time * 0.7 + i * 1.3) * 30;
         const gradient = ctx.createLinearGradient(0, y - 10, 0, y + 10);
         gradient.addColorStop(0, 'transparent');
-        gradient.addColorStop(0.5, '#4ecdc4');
+        gradient.addColorStop(0.5, 'rgba(255,255,255,0.5)');
         gradient.addColorStop(1, 'transparent');
         ctx.fillStyle = gradient;
         ctx.fillRect(0, y - 10, width, 20);

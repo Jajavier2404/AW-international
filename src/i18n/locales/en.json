@@ -1,0 +1,270 @@
+{
+  "navigation": {
+    "home": "Home",
+    "systems": "Systems",
+    "markets": "Markets",
+    "about": "About Us",
+    "faqs": "FAQs",
+    "contact": "Contact"
+  },
+  "hero": {
+    "overline": "ATMOSPHERIC WATER GENERATION TECHNOLOGY",
+    "headline": "We Make Pure Water from Air",
+    "subheadline": "Patented systems that transform atmospheric humidity into clean, safe drinking water, wherever and whenever you need it.",
+    "ctaPrimary": "View Our Systems",
+    "ctaSecondary": "How It Works"
+  },
+  "about": {
+    "title": "About AW International",
+    "subtitle": "Making clean water out of thin air",
+    "description": "AW International pioneered atmospheric water generation technology for extracting water from humidity in the air. Drawing from the renewable ocean of water vapour in the air that we breathe, our patented technology cost effectively transforms humidity into an abundant source of clean water near the point of use.",
+    "mission": {
+      "title": "Our Mission",
+      "text": "Our mission is to provide pure bacteria free, clean, potable water throughout the world. Providing water for drinking, horticulture and agriculture and satisfy the thirst of the masses. Air-to-Water Generation will provide food for humanity during the threatening water crisis of the 21st century. Clean drinking water is among the world's most valuable commodities and is becoming increasingly limited; set to be a more valuable commodity than oil. WATER FOR THE WORLD."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "text": "AWG International Inc. will continue to lead the pack on research and development in the field of Air-to-Water technology. The company's 2nd Generation water machines for home/office and commercial AquaMaX machines will set the industry standard, making AWG International Inc. the most recognised and trusted market leader in the world."
+    },
+    "cta": "Learn More About Us"
+  },
+  "systems": {
+    "title": "Our Systems",
+    "subtitle": "Designed to be the solution",
+    "description": "AW International's systems are designed with core principles in mind: adaptable, scalable, cost-effective, and environmentally responsible.",
+    "principles": {
+      "adaptable": "Adaptable & scalable",
+      "costEffective": "Cost-effective",
+      "environmental": "Environmentally responsible",
+      "smart": "Technologically smart"
+    },
+    "products": {
+      "aw2500": {
+        "name": "AW 2500",
+        "description": "The AW 2500 is a home and office countertop unit that can produce some of the cleanest, best tasting drinking water on earth. With a low carbon footprint – no plastic bottles to throw away or fuel for weekly deliveries, proprietary technology that ensures you are getting the safest, cleanest water available.",
+        "capacity": "Up to 5 gallons/19 liters per day",
+        "applications": "Homes, Offices, Small Shops"
+      },
+      "aw800": {
+        "name": "AW 800",
+        "description": "AW 800 is a commercial and industrial system that can produce up to 800 gallons of clean drinking water per day, from the air. Ideal for resorts, hotels, apartment buildings, hospitals, disaster response, community drinking water, and hydroponics.",
+        "capacity": "Up to 800 gallons per day",
+        "applications": "Resorts, Hospitals, Communities, Hydroponics"
+      },
+      "awi250g": {
+        "name": "AWI 250 G",
+        "description": "The AWI 250 G is a great alternative for semi-industrial needs. It can produce up to 1,000 Liters per day.",
+        "capacity": "Up to 1,000 liters per day",
+        "applications": "Factories, Hotels, Buildings"
+      },
+      "aw5k": {
+        "name": "AW 5K",
+        "description": "AW 5K is an industrial system that can produce 5,000 gallons per day of clean drinking water from the air. Ideal for large scale industrial applications.",
+        "capacity": "Up to 5,000 gallons per day",
+        "applications": "Industry, Disaster Response, Agriculture"
+      },
+      "aw9000": {
+        "name": "AW 9000",
+        "description": "Solar-powered water generation system. Ideal for remote locations without grid access.",
+        "capacity": "9,000 gallons per day",
+        "applications": "Remote locations, Rural communities"
+      },
+      "aw12000": {
+        "name": "AW 12000",
+        "description": "High-capacity solar system for communities and industrial applications.",
+        "capacity": "12,000 gallons per day",
+        "applications": "Communities, Industry, Resorts"
+      },
+      "aw18000s": {
+        "name": "AW 18000S",
+        "description": "Large-scale solar system for massive clean drinking water production.",
+        "capacity": "18,000 gallons per day",
+        "applications": "Industrial, Large communities"
+      },
+      "aw24000s": {
+        "name": "AW 24000S",
+        "description": "The largest solar system in our line for maximum clean water production.",
+        "capacity": "24,000 gallons per day",
+        "applications": "Maximum industrial scale"
+      },
+      "adpv40k": {
+        "name": "ADPV40K",
+        "description": "40KW photovoltaic system with 2-axis tracking for maximum energy efficiency.",
+        "capacity": "40KW Solar",
+        "applications": "Large AW systems, Solar plants"
+      }
+    },
+    "solar": {
+      "title": "Solar Powered Systems",
+      "description": "Solutions with 40KW solar panels and 13,200Ah batteries. Ideal for remote locations without grid access.",
+      "products": ["ADPV40K", "AW 9000", "AW 12000", "AW 18000S", "AW 24000S"]
+    },
+    "advantages": {
+      "title": "Advantages",
+      "subtitle": "Our systems' benefits defined",
+      "accessible": "Accessible - Our units produce fresh clean drinking water anywhere",
+      "filtration": "Reliable filtration - Free of impurities, air pollution and metal oxide contamination",
+      "secure": "Secure - No chemicals or pollutants",
+      "efficient": "Efficient - Inexpensive to operate; simple to maintain",
+      "environmental": "Environmentally-clean - Dehumidifies preventing dry-rot, mould & mildew",
+      "biohazard": "Bio-hazard free - No contaminants and pharmaceuticals found in ground water"
+    },
+    "cta": "Browse All Systems",
+    "viewDetails": "View Details",
+    "requestQuote": "Request Quote",
+    "datasheet": "Datasheet"
+  },
+  "markets": {
+    "title": "Our Markets",
+    "subtitle": "Addressing the World's Water Crisis",
+    "description": "Of the total world water supply, approximately 97.5% is saltwater. Most of the remaining 2.5% is locked in ice and snow cover. Less than 1% of the earth's freshwater supply is available for use by the world's population.",
+    "crisis": {
+      "title": "Solving the World's Water Crisis",
+      "text1": "By 2025, 1.8 billion people will be living in countries or regions with absolute water scarcity, and two thirds of the world's population could be living under water-stressed conditions.",
+      "text2": "By 2030, 47% of the world's population will be living in areas of high water stress. Population will continue to grow. Water issues will become even more alarming.",
+      "oilGas": "In addition to drinking water, the demand for water in industrial applications will continue to increase. For example, fracking activities in Texas consumed over 45 billion gallons of fresh water from January 2011 through May 2013."
+    },
+    "atmospheric": {
+      "title": "Atmospheric Water Generation",
+      "subtitle": "A responsible, smart solution",
+      "responsible": "Responsible technology - The atmosphere contains an untapped, almost limitless supply of fresh water",
+      "accessible": "Making water accessible - Designed to cost-effectively produce clean water for various applications",
+      "questions": "Addressing the questions - Why wait for water to condense and fall as snow? Why risk it being diverted or polluted?"
+    },
+    "marketsList": {
+      "residential": {
+        "title": "Residential",
+        "description": "Homes and offices seeking total water autonomy.",
+        "ideal": "AW 2500"
+      },
+      "industrial": {
+        "title": "Industrial",
+        "description": "Continuous water production for industrial processes and manufacturing.",
+        "ideal": "AW 5K"
+      },
+      "communities": {
+        "title": "Communities",
+        "description": "Accessible drinking water for entire communities and disaster response.",
+        "ideal": "AW 800"
+      },
+      "oilGas": {
+        "title": "Oil & Gas",
+        "description": "Water solutions for exploration in remote sites without infrastructure.",
+        "ideal": "AWI 250 G"
+      },
+      "agriculture": {
+        "title": "Agriculture",
+        "description": "Irrigation and hydroponics with pure water generated on-site.",
+        "ideal": "AW 800"
+      }
+    },
+    "cta": "Learn More About Markets"
+  },
+  "howItWorks": {
+    "title": "Our Technology",
+    "subtitle": "Three steps. Infinite water.",
+    "steps": {
+      "1": {
+        "title": "Absorption",
+        "description": "The system extracts humid air from the environment. Works with minimum humidity of 50%, no rain needed."
+      },
+      "2": {
+        "title": "Condensation",
+        "description": "Air is chilled to the dew point. Humidity condenses on state-of-the-art stainless steel coils."
+      },
+      "3": {
+        "title": "Purification",
+        "description": "Water passes through advanced filtration chambers, producing pure, clean drinking water ready for consumption."
+      }
+    }
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get the Answers",
+    "questions": {
+      "1": {
+        "question": "What is Atmospheric Water Generation?",
+        "answer": "Atmospheric water generation is a technology-based process used to condense water from the air, then capture and filter that moisture into drinkable water."
+      },
+      "2": {
+        "question": "How does it work?",
+        "answer": "AW International systems collect water from humidity in the atmosphere. This air is chilled to the 'dew point' and the moisture is condensed onto stainless steel or specially coated coils, then channeled through advanced filtering chambers to provide a reliable source of clean drinking water."
+      },
+      "3": {
+        "question": "Under what environmental conditions can it produce water?",
+        "answer": "AW International's technology will produce clean water effectively and economically from the air with humidity as low as 50%. Optimal water generation depends on average temperature and relative humidity. Higher humidity and temperature conditions improve cost effectiveness."
+      },
+      "4": {
+        "question": "How pure is the water produced?",
+        "answer": "The water produced is free of impurities, such as air pollution and metal oxide contamination. The advanced filtering process works all day and night, non-stop, maintaining an optimal level of purification. Water filtered has low TDS (Total Dissolved Solids)."
+      },
+      "5": {
+        "question": "How much water can be produced?",
+        "answer": "Water production can range from up to five gallons/19 liters per day for household models, to more than 400 gallons/1,500 liters per day for commercial models, and even more through modular aggregation. With the AW 20K, more than 20,000 gallons/75,000 liters per day can be produced."
+      },
+      "6": {
+        "question": "What does it take to operate and maintain?",
+        "answer": "AW International systems are designed to operate continuously and only require modest periodic maintenance consisting of filter changes and general cleaning. Air filters should be replaced four to six times a year. Water filters should be replaced two to four times per year."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Our Sales Team is always ready to have a conversation.",
+    "form": {
+      "name": "Name",
+      "email": "Email Address",
+      "message": "Message",
+      "submit": "Submit",
+      "success": "Thank you for your message. We will contact you soon."
+    },
+    "info": {
+      "phone": "1-939-251-7443",
+      "email": "info@awinternational.ca",
+      "address": "Global Plaza Bldg, John Albert St 322, suite 201 B1, San Juan, Puerto Rico 00920"
+    },
+    "cta": "Call Today"
+  },
+  "footer": {
+    "copyright": "© 2026 AW International Ltd",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "contactUs": "Contact Us",
+    "callToday": "Call Today",
+    "scrollDown": "Scroll Down",
+    "language": "Language",
+    "spanish": "Spanish",
+    "english": "English"
+  },
+  "home": {
+    "aboutPreview": {
+      "title": "About AW International",
+      "description": "AW International pioneered atmospheric water generation technology. Our patented systems transform humidity into an abundant source of clean water near the point of use.",
+      "cta": "Learn More About Us"
+    },
+    "systemsPreview": {
+      "title": "Our Systems",
+      "description": "From countertop units to industrial high-capacity systems, we have the solution for every application.",
+      "cta": "Browse All Systems"
+    },
+    "marketsPreview": {
+      "title": "Our Markets",
+      "description": "Addressing the world's water crisis with solutions for residential, industrial, and community applications.",
+      "cta": "Explore Markets"
+    },
+    "technologyPreview": {
+      "title": "Our Technology",
+      "description": "Three simple steps to transform atmospheric humidity into pure drinking water.",
+      "cta": "See How It Works"
+    },
+    "faqPreview": {
+      "title": "Frequently Asked Questions",
+      "description": "Get answers about our processes, systems, and technology.",
+      "cta": "View All FAQs"
+    }
+  }
+}
