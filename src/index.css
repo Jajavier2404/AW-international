@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --deep-blue: #0a1628;
+    --mid-blue: #1e3a5f;
+    --water-blue: #2a6b8a;
+    --aqua: #4ecdc4;
+    --fresh-green: #6bcb77;
+    --white: #f5f8fa;
+    --cream: #e8f0f4;
+    --muted-text: rgba(245, 248, 250, 0.6);
+    --nav-glass: rgba(10, 22, 40, 0.65);
+
+    --section-pad-y: clamp(80px, 10vh, 140px);
+    --section-pad-x: clamp(24px, 6vw, 120px);
+    --content-max-w: 1200px;
+    --grid-gap: 2rem;
+    --card-gap: 1.5rem;
+
+    --background: 0 0% 100%;
+    --foreground: 220 40% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 40% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 40% 10%;
+    --primary: 174 58% 55%;
+    --primary-foreground: 220 40% 10%;
+    --secondary: 210 20% 95%;
+    --secondary-foreground: 220 40% 10%;
+    --muted: 210 20% 95%;
+    --muted-foreground: 220 10% 45%;
+    --accent: 174 58% 55%;
+    --accent-foreground: 220 40% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 10% 88%;
+    --input: 220 10% 88%;
+    --ring: 174 58% 55%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: var(--deep-blue);
+    color: var(--white);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: rgba(78, 205, 196, 0.3);
+    color: var(--white);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-9 py-3.5 rounded text-xs font-medium uppercase tracking-[0.08em];
+    background-color: var(--aqua);
+    color: var(--deep-blue);
+    transition: all 0.3s ease;
+  }
+
+  .btn-primary:hover {
+    background-color: #5fd9d1;
+    box-shadow: 0 4px 20px rgba(78, 205, 196, 0.3);
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-9 py-3.5 rounded text-xs font-medium uppercase tracking-[0.08em];
+    background-color: transparent;
+    border: 1px solid rgba(245, 248, 250, 0.3);
+    color: var(--white);
+    transition: all 0.3s ease;
+  }
+
+  .btn-secondary:hover {
+    border-color: var(--aqua);
+    color: var(--aqua);
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center px-6 py-2.5 rounded text-xs font-medium uppercase tracking-[0.08em];
+    background-color: transparent;
+    color: var(--muted-text);
+    transition: all 0.3s ease;
+  }
+
+  .btn-ghost:hover {
+    color: var(--white);
+  }
+
+  .overline {
+    @apply text-xs font-normal uppercase tracking-[0.15em];
+    color: var(--aqua);
+  }
+
+  .overline-dark {
+    @apply text-xs font-normal uppercase tracking-[0.15em];
+    color: var(--water-blue);
+  }
+
+  .section-container {
+    max-width: var(--content-max-w);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--section-pad-x);
+    padding-right: var(--section-pad-x);
+  }
+
+  .input-field {
+    @apply w-full rounded px-4 py-3.5 text-sm;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(245, 248, 250, 0.1);
+    color: var(--white);
+    transition: all 0.3s ease;
+  }
+
+  .input-field::placeholder {
+    color: rgba(245, 248, 250, 0.3);
+  }
+
+  .input-field:focus {
+    border-color: var(--aqua);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(78, 205, 196, 0.1);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
