@@ -102,7 +102,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <WaveDivider fill="#134980" />
+      <WaveDivider topColor="#134980" bottomColor="#f8fafc" />
 
       {/* Stats Bar - Light */}
       <section
@@ -143,12 +143,12 @@ export default function HomePage() {
       {/* Systems Carousel - White/Light */}
       <SystemsCarousel />
 
-      <WaveDivider fill="#134980" flip />
+      <WaveDivider topColor="#f8fafc" bottomColor="#134980" flip />
 
       {/* Markets Preview - Dark Blue */}
       <section
         style={{
-          background: 'linear-gradient(135deg, var(--deep-blue) 0%, #0d3566 100%)',
+          background: 'var(--deep-blue)',
           padding: 'var(--section-pad-y) var(--section-pad-x)',
           position: 'relative',
           zIndex: 1,
@@ -208,7 +208,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <WaveDivider fill="#134980" />
+      <WaveDivider topColor="#134980" bottomColor="#f8fafc" />
 
       {/* Contact Form Section - Mejorado con imagen */}
       <section

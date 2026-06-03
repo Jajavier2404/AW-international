@@ -1,34 +1,45 @@
 interface WaveDividerProps {
-  fill?: string;
+  topColor?: string;
+  bottomColor?: string;
   flip?: boolean;
 }
 
-export default function WaveDivider({ fill = '#134980', flip = false }: WaveDividerProps) {
-  const gradientId = `waveGradient-${fill.replace('#', '')}`;
+export default function WaveDivider({ 
+  topColor = '#134980', 
+  bottomColor = '#f8fafc',
+  flip = false 
+}: WaveDividerProps) {
+  const bgColor = flip ? topColor : bottomColor;
+  
+  // Path invertido para ambos - curva hacia arriba
+  const pathD = "M0,120 C240,40 480,0 720,60 C960,120 1200,80 1440,120 L1440,0 L0,0 Z";
 
   return (
-    <svg
-      viewBox="0 0 1440 120"
-      preserveAspectRatio="none"
-      style={{
-        width: '100%',
-        display: 'block',
-        height: '120px',
-        transform: flip ? 'rotate(180deg)' : undefined,
-      }}
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true"
-    >
-      <defs>
-        <linearGradient id={gradientId} x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor={fill} stopOpacity="1" />
-          <stop offset="100%" stopColor={fill} stopOpacity="0" />
-        </linearGradient>
-      </defs>
-      <path
-        d="M0,60 C240,120 480,0 720,60 C960,120 1200,0 1440,60 L1440,120 L0,120 Z"
-        fill={`url(#${gradientId})`}
-      />
-    </svg>
+    <div style={{ 
+      width: '100%', 
+      display: 'block',
+      lineHeight: 0,
+      fontSize: 0,
+      background: bgColor,
+    }}>
+      <svg
+        viewBox="0 0 1440 120"
+        preserveAspectRatio="none"
+        style={{
+          width: '100%',
+          display: 'block',
+          height: flip ? '60px' : '80px',
+          transform: flip ? 'rotate(180deg)' : undefined,
+        }}
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+      >
+        {/* Onda siempre azul */}
+        <path
+          d={pathD}
+          fill="#134980"
+        />
+      </svg>
+    </div>
   );
 }

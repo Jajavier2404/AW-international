@@ -23,7 +23,7 @@ export default function MarketsPage() {
       {/* Hero Section - Dark Blue */}
       <section
         style={{
-          background: 'linear-gradient(135deg, var(--deep-blue) 0%, #0d3566 50%, #0f3d75 100%)',
+          background: 'var(--deep-blue)',
           padding: 'calc(var(--section-pad-y) - 40px) var(--section-pad-x) var(--section-pad-y)',
           position: 'relative',
           zIndex: 1,
@@ -147,7 +147,7 @@ export default function MarketsPage() {
       {/* Markets Grid - Dark Blue */}
       <section
         style={{
-          background: 'linear-gradient(135deg, var(--deep-blue) 0%, #0d3566 100%)',
+          background: 'var(--deep-blue)',
           padding: 'var(--section-pad-y) var(--section-pad-x)',
           position: 'relative',
           zIndex: 1,

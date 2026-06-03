@@ -17,7 +17,7 @@ export default function FAQsPage() {
       <section
         className="flex flex-col items-center justify-center text-center px-6"
         style={{ 
-          background: 'linear-gradient(135deg, var(--deep-blue) 0%, #0d3566 50%, #0f3d75 100%)', 
+          background: 'var(--deep-blue)', 
           minHeight: '40vh' 
         }}
       >
