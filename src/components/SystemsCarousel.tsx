@@ -107,7 +107,7 @@ export default function SystemsCarousel() {
                 style={{ width: 'calc(33.333% - 16px)', minWidth: '300px' }}
               >
                 <div
-                  className="group rounded-xl overflow-hidden transition-all duration-500 hover:-translate-y-2 h-full"
+                  className="group rounded-xl overflow-hidden transition-all duration-500 hover:-translate-y-2 h-full flex flex-col"
                   style={{ 
                     background: 'var(--white)',
                     border: '1px solid rgba(19,73,128,0.08)',
@@ -134,7 +134,7 @@ export default function SystemsCarousel() {
                     </div>
                   </div>
 
-                  <div className="p-6">
+                  <div className="p-6 flex flex-col flex-grow">
                     <h3
                       className="text-xl font-semibold"
                       style={{ color: 'var(--deep-blue)' }}
@@ -142,12 +142,12 @@ export default function SystemsCarousel() {
                       {t(`systems.products.${system.key}.name`)}
                     </h3>
                     <p
-                      className="mt-3 text-sm leading-relaxed"
+                      className="mt-3 text-sm leading-relaxed line-clamp-3"
                       style={{ color: 'var(--muted-text-dark)' }}
                     >
                       {t(`systems.products.${system.key}.description`)}
                     </p>
-                    <div className="mt-5 flex items-center gap-3">
+                    <div className="mt-auto pt-5 flex items-center gap-3">
                       <Link
                         to={`/systems/${system.key}`}
                         className="inline-flex items-center gap-2 text-sm font-semibold transition-all duration-300 hover:gap-3"

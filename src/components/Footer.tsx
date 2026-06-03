@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Droplets, Mail, Phone, MapPin, ArrowUp } from 'lucide-react';
+import WaveDivider from './WaveDivider';
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -10,14 +11,14 @@ export default function Footer() {
   };
 
   return (
-    <footer
-      style={{
-        background: 'var(--deep-blue)',
-        borderTop: '1px solid rgba(255,255,255,0.08)',
-        position: 'relative',
-        zIndex: 10,
-      }}
-    >
+    <footer style={{ position: 'relative', zIndex: 10 }}>
+      <WaveDivider topColor="#f8fafc" bottomColor="#134980" flip />
+      
+      <div
+        style={{
+          background: 'var(--deep-blue)',
+        }}
+      >
       {/* Main Footer Content */}
       <div
         className="section-container"
@@ -157,6 +158,7 @@ export default function Footer() {
             Volver arriba
           </button>
         </div>
+      </div>
       </div>
     </footer>
   );

@@ -367,18 +367,18 @@ export default function SystemDetailPage() {
         </div>
       </section>
 
-      {/* CTA */}
+      {/* CTA - White */}
       <section
         style={{
-          background: 'var(--deep-blue)',
+          background: 'var(--section-light)',
           padding: '60px var(--section-pad-x)',
         }}
       >
         <div className="section-container text-center">
-          <h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2rem)', color: 'var(--white)' }}>
+          <h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2rem)', color: 'var(--deep-blue)' }}>
             ¿Interesado en el {systemName}?
           </h2>
-          <p className="mt-3 mb-6" style={{ color: 'var(--muted-text)' }}>
+          <p className="mt-3 mb-6" style={{ color: 'var(--muted-text-dark)' }}>
             Contacta a nuestro equipo de ventas para obtener una cotización personalizada.
           </p>
           <Link to="/contact" className="btn-primary">
